@@ -1,0 +1,29 @@
+{
+  "name": "cjs-module-lexer-repl",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint --cache ."
+  },
+  "dependencies": {
+    "autosize": "^6.0.1",
+    "preact": "^10.27.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@preact/preset-vite": "^2.10.2",
+    "@types/autosize": "^4.0.3",
+    "cjs-module-lexer": "^1.4.1",
+    "eslint": "^9.39.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "globals": "^16.5.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.2",
+    "vite": "^7.1.12"
+  },
+  "packageManager": "pnpm@10.20.0"
+}
